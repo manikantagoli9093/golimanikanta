@@ -1,0 +1,95 @@
+/* Base styles for larger screens */
+.home {
+    color: rgb(1, 29, 53);
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.home-text {
+    width: 60%;
+    margin-left: 60px;
+}
+
+.home-img {
+    width: 40%;
+    margin-right: 10px;
+    margin-left: 20px;
+    display: flex;
+    align-items: start;
+}
+
+.home-static-text {
+    font-size: 100px;
+    letter-spacing: 1px;
+}
+
+.home-dynamic-text {
+    font-size: 50px;
+    letter-spacing: 3px;
+}
+
+.home-icon-text {
+    font-size: 30px;
+    letter-spacing: 3px;
+    margin-top: 20px;
+}
+
+.home-img img {
+    width: 500px;
+    height: 490px;
+}
+
+.button-list {
+    margin-top: 50px;
+}
+
+.button Button {
+    margin: 10px;
+}
+
+/* Mobile styles */
+@media only screen and (max-width: 768px) {
+    .home {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .home-text {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .home-img {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .home-img img {
+        width: 100%;
+        height: auto;
+    }
+
+    .home-static-text {
+        font-size: 50px;
+    }
+
+    .home-dynamic-text {
+        font-size: 30px;
+    }
+
+    .home-icon-text {
+        font-size: 20px;
+    }
+
+    .button-list {
+        margin-top: 20px;
+    }
+
+    .button Button {
+        margin: 5px;
+    }
+}

@@ -1,0 +1,30 @@
+/* Base styles for larger screens */
+.navbar {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.navitem Button {
+    border-width: 1px;
+    border-style: solid;
+    border-top: 1px;
+    border-bottom: 1px;
+    margin-left: 10px;
+    border-color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/* Mobile styles */
+@media only screen and (max-width: 768px) {
+    .navbar {
+        margin-top: 20px; /* Adjust top margin for mobile */
+    }
+
+    .navitem Button {
+        margin-left: 5px; /* Reduce margin for smaller screens */
+        padding-left: 15px; /* Adjust padding */
+        padding-right: 15px; /* Adjust padding */
+        font-size: 14px; /* Adjust font size if needed */
+    }
+}
